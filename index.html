@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-  </html>
 <html>
 <head>
-     <title>Rmz</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
-    <!-- Materialize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-     <link rel="stylesheet" href="app.css">
+   <title>Rmz</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="lo1.jpg" type="image/jpg">
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="app.css">
 
-    <!-- JavaScript for: jQuery, angular, materialize, and angular-materialize. All of which are needed. -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.min.js"></script>
+  <!-- JavaScript for: jQuery, angular, materialize, and angular-materialize. All of which are needed. -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.min.js"></script>
 
-    <!-- Your app -->
-    <script type="text/javascript" src="app.js"></script>
-</head>
+  <!-- Your app -->
+  <script type="text/javascript" src="app.js"></script>
+</head> 
 <body ng-app="materializeApp" ng-controller="BodyController">
+
 <main>
 <div ng-include="'header.html'"></div>  
 <div ng-include="'app.html'"></div>
+<div ng-include="'table.html'"></div>
+<div ng-include="'pro.html'"></div>
 <div ng-include="'footer.html'"></div>
-<div ng-include="'login.html'"></div>
+<!-- <div ng-include="'login.html'"></div> -->
 </main>
 </body>
 </html>
+
